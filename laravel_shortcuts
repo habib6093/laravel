@@ -1,0 +1,4 @@
+
+composer create-project laravel/laravel [project name]    //create new project
+
+php artisan serve  //run project on server
