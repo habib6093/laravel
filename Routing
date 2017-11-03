@@ -27,3 +27,19 @@ Route::get('/data',function()
 
 
 
+
+Route::get('/show/{no}',function($no)         // pass data through url parameter 
+{
+	 
+	 $list=DB::table('task')->find($no);
+
+     dd($list);      // dd means Dump and Die. it used to dump data
+});
+
+
+
+
+
+
+
+
