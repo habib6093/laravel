@@ -3,4 +3,12 @@ composer create-project laravel/laravel [project name]    //create new project
 
 php artisan serve  //run project on server
 
+php artisan make:migration create_task_table  // create new table named task
+
+php artisan migrate                           
+
+php artisan migrate:refresh      // To reachange the migrations
+
+
+php artisan  // To know the commands provided by laravel
 
