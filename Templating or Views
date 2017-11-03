@@ -2,17 +2,43 @@
 <h1> Hey <?= $name ?> </h1>       // print single variable     
 
 
+
+
+
+
+
 <ul>                              // print list of value by foreach loop
  @foreach ($list as $value)     
    <li>{{ $value }}</li>
  @endforeach
 </ul>
 
+
+
+
+
+
  
 <ul align="center">                         
-     @foreach ($list as $key=>$value)  // print associative array 
+     @foreach ($list as $key=>$value)         // print associative array 
       	<li>{{ $key }} {{$value}}</li>
      @endforeach
 </ul>
+
+
+
+
+
+
+<ul>                                         // $list contains datarow from databse and $data contains each row  
+ @foreach ($list as $data) 
+      	<li align="center">Name: {{ $data->user_name}} Task:{{$data->task_name}}</li>
+ @endforeach
+</ul>
+
+
+
+
+
 
 
