@@ -18,9 +18,9 @@ Route::get('/data',function()
 	 $data=20;
 	 $name="Jashim";
 	 $list=[
-     "hello there",
-     "hello world",
-     "hey Rahim"
+            "hello there",
+            "hello world",
+            "hey Rahim"
 	 ];
      return view('data', compact('data','name','list'));            // passing values(data,name,list) to data.blade.php 
 });
