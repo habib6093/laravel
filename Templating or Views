@@ -8,4 +8,11 @@
  @endforeach
 </ul>
 
+ 
+<ul align="center">                         
+     @foreach ($list as $key=>$value)  // print associative array 
+      	<li>{{ $key }} {{$value}}</li>
+     @endforeach
+</ul>
+
 
