@@ -1,0 +1,11 @@
+
+<h1> Hey <?= $name ?> </h1>       // print single variable     
+
+
+<ul>                              // print list of value by foreach loop
+ @foreach ($list as $value)     
+   <li>{{ $value }}</li>
+ @endforeach
+</ul>
+
+
