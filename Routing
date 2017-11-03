@@ -1,0 +1,29 @@
+
+
+Route::get('/', function () {
+    return view('welcome');           // return welcome.blade.php from views
+});                        
+
+
+
+Route::get('/about', function () {
+	
+    return "Hello world ".(5+4);      // return simple response
+});
+
+
+
+Route::get('/data',function()
+{
+	 $data=20;
+	 $name="Jashim";
+	 $list=[
+     "hello there",
+     "hello world",
+     "hey Rahim"
+	 ];
+     return view('data', compact('data','name','list'));            // passing values(data,name,list) to data.blade.php 
+});
+
+
+
