@@ -50,3 +50,7 @@ Route::get('/show/{no}',function($no)
 
      dd($list);
 });
+
+
+
+Route::get('show',"show@index");
