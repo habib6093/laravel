@@ -41,5 +41,13 @@ Route::get('/show/{no}',function($no)         // pass data through url parameter
 
 
 
+Route::get('show',"show@index");      // Calling function index of controller show 
+
+
+
+
+
+
+
 
 
