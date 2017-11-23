@@ -7,10 +7,12 @@ php artisan make:migration create_task_table  // create new table named task and
 
 php artisan migrate                           
 
-php artisan migrate:refresh      // To reachange the migrations
+php artisan migrate:refresh      // To reachange the migrations but it will remove existing data
 
 
 php artisan  // To know the commands provided by laravel
 
 php artisan make:controller [controller name]   // To create controller
+
+
 
