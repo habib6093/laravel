@@ -15,4 +15,7 @@ php artisan  // To know the commands provided by laravel
 php artisan make:controller [controller name]   // To create controller
 
 
+php artisan storage:link  // create link/shortcut to storage folder with public folder
+
+
 
