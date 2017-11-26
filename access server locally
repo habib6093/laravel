@@ -1,0 +1,10 @@
+
+type into the command line ipconfig (Windows) or ifconfig (Unix)
+
+use inet addr:192.168.0.100
+
+run command -> php artisan serve --host 0.0.0.0
+
+now use port 8000
+
+so 192.168.0.100:8000 is the address
