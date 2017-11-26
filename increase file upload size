@@ -1,0 +1,15 @@
+
+inside controller/php_tag echo this line "echo phpinfo();"
+a php configuration will appear.from the configuration find  "Loaded Configuration File". a path will be given there to find
+php.ini file. now go there and edit the file with sudo(sudo gedit php.ini)/root_user. 
+
+now edit the following to increase file upload size limit
+
+upload_max_filesize=2M  // 2M means 2MB
+post_max_size=2M
+max_input_time=300      //300 means 3 sec
+max_execution_time=300
+
+
+
+after all restart php with command "sudo service apache2 restart"
