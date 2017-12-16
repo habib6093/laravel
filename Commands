@@ -19,3 +19,4 @@ php artisan storage:link  // create link/shortcut to storage folder with public 
 
 
 
+composer update --no-scripts  // after clone/copy new project
