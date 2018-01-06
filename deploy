@@ -1,0 +1,8 @@
+------------------heroku----------------------
+1.create procfile inside root folder and add following lines
+  web: vendor/bin/heroku-php-apache2 
+  
+2.rename server.php file to index.php
+3.move .htaccess file from public folder to root folder
+4.remove .env from .gitignore as it contains configuration,DB and other related info
+
