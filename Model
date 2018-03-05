@@ -1,0 +1,13 @@
+
+
+$data=DB::table('task')->get();      // to get all the data from task table
+
+
+$data=DB::table('task')->find($no);  // to get specific data from task table
+
+
+
+task::where('name',$query)->get();   //to find data where name=something 
+
+task::where('name',$query)->get()->pluck('name');  //to get value of name column
+
