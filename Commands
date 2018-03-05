@@ -3,7 +3,7 @@ composer create-project laravel/laravel [project name]    //create new project
 
 php artisan serve  //run project on server
 
-php artisan make:migration create_task_table  // create new table named task and initialize basic structure for a table
+php artisan make:migration create_task_table --create=task // create new table named task and initialize basic structure for a table
 
 php artisan migrate                           
 
