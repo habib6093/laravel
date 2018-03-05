@@ -10,6 +10,9 @@ php artisan migrate
 php artisan migrate:refresh      // To reachange the migrations but it will remove existing data
 
 
+php artisan make:migration add_column_to_task --table="task"   //if it's needed to add extra column to existing table.add necessary column and migrate 
+
+
 php artisan  // To know the commands provided by laravel
 
 php artisan make:controller [controller name]   // To create controller
