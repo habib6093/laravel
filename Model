@@ -11,3 +11,12 @@ task::where('name',$query)->get();   //to find data where name=something
 
 task::where('name',$query)->get()->pluck('name');  //to get value of name column
 
+
+
+if table "A" contains foreign key(id) of "B"
+
+   use $this->hasOne("B") inside model "A"
+   and
+   use $this->belongsTo(A); inside model "B"
+   
+
